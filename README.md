@@ -17,7 +17,7 @@ Unlike standard "Chat with Code" tools, Repo Doctor uses an **event-driven agent
 
 ## 🏗 Architecture
 
-The system decouples the **Tool** (GitHub API access) from the **Agent** (Logic) using the well-known Model Context Protocol (MCP).
+The system decouples the **Tool** (GitHub API access) from the **Agent** (Logic) using the well-known Model Context Protocol (MCP).The MCP server exposes 2 functions that enable us to interact with github: list_files and read_files.
 
 ## 🚀 Installation
 
@@ -32,6 +32,8 @@ pip install -r requirements.txt
 Configure Environment
 ```bash
 cp .env.example .env
+OPENAI_API_KEY=""
+GITHUB_TOKEN=""
 ```
 
 💻 Usage
