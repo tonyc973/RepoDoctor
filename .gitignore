@@ -1,0 +1,20 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches
+.pytest_cache/
+.mypy_cache/
+
+# Environment variables (NEVER COMMIT THESE)
+.env
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Local Output files
+IMPROVEMENTS.md
+test_playground/
